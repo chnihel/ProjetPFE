@@ -1,0 +1,134 @@
+/*css de login*/
+.App {
+	text-align: center;
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: left;
+	color: white;
+	
+	background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+    
+}
+  
+.auth-form-container, .login-form, .register-form {
+	display: flex;
+	flex-direction: column;
+  }
+  
+@media screen and (min-width: 600px) {
+	.auth-form-container {
+	  padding: 5rem;
+	  border: 1px solid white;
+	  border-radius: 10px;
+	  margin: 0.5rem;
+	}
+  }
+  
+label {
+	text-align: left;
+	padding: 0.25rem 0;
+  }
+  
+input {
+	margin: 0.5rem 0;
+	padding: 1rem;
+	border: none;
+	border-radius: 10px;
+  }
+  
+button {
+	border: none;
+	background-color: white;
+	padding: 15px;
+	border-radius: 10px;
+	cursor: pointer;
+	color: #7439db;
+  }
+  
+.link-btn {
+	background: none;
+	color: white;
+	text-decoration: underline;
+  }
+  
+/*css de formulaire de l'interface admin*/
+.hash{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 550px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0px 30px rgba(0, 0, 0, .5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  }
+  .signup{
+    margin-top: 1rem;
+    width: 50%;
+    overflow: auto;
+    width: 100%;
+  }
+  .signup select,
+.hash form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hash form button{
+  border: none;
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	color: red;
+}
+
+
+/*css de listinstitutes*/	
+.container {
+  display: flex;
+ }
+	  
+.list {
+  margin: 0 0 0 30px;
+  width: 1000px;
+  /*overflow-y: scroll;*/
+	  }
+		
+		
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+		  
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+		  
+th {
+  background-color: #2377cf;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+		  
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+select {
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+}
